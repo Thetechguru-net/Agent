@@ -1,0 +1,26 @@
+{
+  "package_id": "com.thetechguru.agent",
+  "edition": "202601",
+  "name": "Agent",
+  "version": "0.1.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "g2-microphone",
+      "desc": "Capture your voice from the glasses mic for push-to-talk questions."
+    },
+    {
+      "name": "network",
+      "desc": "Stream audio to Soniox for transcription and send questions to your AI backend.",
+      "whitelist": [
+        "wss://stt-rt.soniox.com",
+        "https://your-backend.example.com"
+      ]
+    }
+  ],
+  "supported_languages": [
+    "en"
+  ]
+}
