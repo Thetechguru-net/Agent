@@ -16,7 +16,7 @@
       "desc": "Stream audio to Soniox for transcription and send questions to your AI backend.",
       "whitelist": [
         "wss://stt-rt.soniox.com",
-        "https://your-backend.example.com"
+        "http://example-agent-url"
       ]
     }
   ],
